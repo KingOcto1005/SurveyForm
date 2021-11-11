@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Survey Form
+    </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+
+        #user-info {
+
+            width: 25%;
+            padding-left: 1em;
+        }
+
+        #description {
+            padding-left: 40px;
+        }
+
+        span {
+
+            padding-right: 5px;
+        }
+
+        #title {
+
+            text-align: center;
+        }
+
+        form {
+
+            margin-left: 2em;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <h1 id="title">Are You Like Me?</h1>
+        <hr>
+        <p id="description">This is a brief survey to see just how much you and I actually have in common!</p>
+        <form class="form-group" id="survey-form" action="#">
+            <div id="user-info">
+            
+            <label for="name" id="name-label">
+                <span class="glyphicon glyphicon-user"></span>Enter name:
+            </label>
+            <input type="name" id="name" placeholder="enter your name here" class="form-control" required>
+            
+            <br>
+            
+            <span class="glyphicon glyphicon-envelope"></span>
+            <label for="email" id="email-label">
+                Enter email address:
+            </label>
+            <input type="email" id="email" placeholder="enter your email address here" class="form-control" required>
+            
+        
+            <br><br>
+        </div>
+            <label for="number" id="number-label">
+                Pick a number:
+            </label>
+            <input type="number" min="1" max="10" id="number" placeholder="enter a number here (optional)">
+            <br><br>
+            <select name="items" id="dropdown">
+                <option value="firstItem">Item 1</option>
+                <option value="secItem">Item 2</option>
+            </select>
+            <br><br>
+            <label for="step1">
+                <input id="step1" value="radFrst" type="radio" name="steps">First
+            </label>
+            <label for="step2">
+                <input id="step2" value="radSec" type="radio" name="steps">Second
+            </label>
+            <label for="step3">
+                <input id="step3" value="radThird" type="radio" name="steps">Third
+            </label>
+            <br><br>
+            <label for="box1">
+                <input id="box1" value="cb1" type="checkbox" name="boxes">Box1
+            </label>
+            <label for="box2">
+                <input id="box2" value="cb2" type="checkbox" name="boxes">Box2
+            </label>
+            <label for="box3">
+                <input id="box3" value="cb3" type="checkbox" name="boxes">Box3
+            </label>
+            <br><br>
+            <textarea name="comments" placeholder="Additional Comments:" id="comments" cols="50" rows="7"></textarea>
+            <br><br>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+
+    </main>
+</body>
+</html>
