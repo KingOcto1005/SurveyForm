@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1611416517780-eff3a13b0359?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1649&q=80);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    color:antiquewhite;
+}
+
+#heading, #subheading {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+#heading {
+    font-size: 4em;
+    margin-top: 50px;
+}
+
+#subheading {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+#name-section, #email-section {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+#questions {
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+#personal-info {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    box-shadow: -3px 5px white;
+}
+
+
+
+#surveyyyyy {
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+
+form .box {
+    width: calc(95% / 2);
+    height: 2.5em;
+    position: relative;
+    border: 0;
+    border-radius: 5px;
+}
+
+#questions select, input {
+    width: 95%;
+    height: 2.5em;
+    position: relative;
+    border: 0;
+    border-radius: 5px;
+}
+
+label {
+
+}

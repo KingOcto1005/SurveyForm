@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./omega-style.css">
+</head>
+<body>
+    <nav>
+        <header>
+            <h1 id="heading">Omega Survey</h1>
+            <h3 id="subheading">Making first project for work!!</h3>
+        </header>
+    </nav>
+    <main>
+        <section id="survey-form" class="card">
+            <form action="#">
+                <section id="surveyyyyy">
+                    <fieldset id="personal-info">
+                        <legend>Personal Info</legend>
+
+                        <section id="name-section">
+                            <label for="namebox">
+                                <h2>Name</h2>
+                            </label> <br>
+                            <input 
+                            type="name" 
+                            name="the-name" 
+                            id="namebox" 
+                            placeholder="Enter Name" 
+                            class="box">
+                        </section>
+                        <br><br>
+
+                        <section id="email-section">
+                            <label for="emailbox">
+                                <h2>Email</h2>
+                            </label> <br>
+                            <input 
+                            type="email" 
+                            name="the-email" 
+                            id="emailbox" 
+                            placeholder="Enter Email" 
+                            class="box">
+                        </section>
+                    </fieldset>
+                    <br><br>
+                    <section id="questions">
+                        <section id="q1">
+                            <label for="question1">
+                                <h2>Pick your poison:</h2>
+                            </label>
+                            <br>
+                            <select 
+                            name="q" 
+                            id="question1"
+                            >
+                            <option name="What color do you see?">What color do you see?</option>
+                            <option value="Red Pill" id="redpill">Red Pill</option>
+                            <option value="Blue Pill" id="bluepill">Blue Pill</option>
+                            <option value="Green Pill" id="greenpill">Green Pill</option>
+                            <option value="Purple Pill" id="purplepill">Purple Pill</option>
+                            </select>
+                        </section>
+
+                        <section id="q2">
+                            <label for="question2">
+                                <h2>Type anything you want:</h2>
+                            </label>
+                            <br>
+                            <input type="text" list="erzz">
+                            <datalist id="erzz">
+                                <option value="Hoo Rah">Hoo Rah</option>
+                                <option value="Yah Hoo">Yah Hoo</option>
+                                <option value="Oh Yeah">Oh Yeah</option>
+                            </datalist>
+                        </section>
+                    </section>
+                </section>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
